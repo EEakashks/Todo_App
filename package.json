@@ -1,0 +1,14 @@
+{
+    "scripts": {
+      "start": "node server.js",
+      "start-watch": "nodemon server.js",
+      "dev": "concurrently \"npm run start-watch\" \"cd frontend && npm start\""
+    },
+
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
